@@ -1,2 +1,1 @@
-# bu
-MSP 클라우드 솔루션 아키텍트 부트캠프
+Git Study Project
