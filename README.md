@@ -1,5 +1,337 @@
-<<<<<<< HEAD
-Git Study Project
-=======
-# Git 협업 실습 프로젝트
->>>>>>> origin/main
+<!DOCTYPE html>
+
+
+
+<html lang="ko">
+
+
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <title>Cloud Team Project</title>
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+
+
+<body>
+
+
+
+    <header>
+
+
+
+        <h1>☁️ Cloud Service Team Portfolio</h1>
+
+
+
+        <p>HTML과 CSS를 분리하여 협업하는 프로젝트입니다.</p>
+
+
+
+    </header>
+
+
+
+
+
+
+
+    <div class="grid-container">
+
+
+
+        <div id="member1" class="member-box">
+
+
+
+            <div class="card-header">Member 1: AWS</div>
+
+
+
+            <div class="content">
+
+
+
+                <p><div class="aws-svc-container">
+
+
+
+        <section class="aws-svc-intro">
+
+
+
+            <h2>클라우드 컴퓨팅이란?</h2>
+
+
+
+            <p>IT 리소스를 인터넷을 통해 온디맨드로 제공하고 사용한 만큼 비용을 지불하는 서비스입니다. 물리적 서버를 구입할 필요 없이 필요한 만큼의 파워를 즉시 사용할 수 있습니다.</p>
+
+
+
+        </section>
+
+
+
+
+
+
+
+        <div class="aws-svc-grid">
+
+
+
+            <article class="aws-svc-card">
+
+
+
+                <span class="aws-svc-tag">Computing</span>
+
+
+
+                <h3>EC2 (Elastic Compute Cloud)</h3>
+
+
+
+                <p>가상 서버 인스턴스를 생성하여 애플리케이션을 구동합니다. 트래픽에 따라 서버 대수를 유연하게 조절할 수 있습니다.</p>
+
+
+
+            </article>
+
+
+
+
+
+
+
+            <article class="aws-svc-card">
+
+
+
+                <span class="aws-svc-tag">Storage</span>
+
+
+
+                <h3>S3 (Simple Storage Service)</h3>
+
+
+
+                <p>무제한에 가까운 확장성을 가진 객체 스토리지입니다. 이미지, 영상, 정적 웹사이트 호스팅 등에 주로 사용됩니다.</p>
+
+
+
+            </article>
+
+
+
+
+
+
+
+            <article class="aws-svc-card">
+
+
+
+                <span class="aws-svc-tag">Database</span>
+
+
+
+                <h3>RDS (Relational Database)</h3>
+
+
+
+                <p>설정 및 관리가 간편한 관계형 데이터베이스 서비스입니다. 백업과 패치가 자동화되어 운영 부담이 적습니다.</p>
+
+
+
+            </article>
+
+
+
+
+
+
+
+            <article class="aws-svc-card">
+
+
+
+                <span class="aws-svc-tag">Networking</span>
+
+
+
+                <h3>VPC (Virtual Private Cloud)</h3>
+
+
+
+                <p>사용자 전용 가상 네트워크 공간을 구축하여 리소스를 격리하고 보안을 강화합니다.</p>
+
+
+
+            </article>
+
+
+
+        </div>
+
+
+
+    </div>.</p>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div id="member2" class="member-box">
+
+
+
+            <div class="card-header">Member 2: Azure</div>
+
+
+
+            <div class="content">
+
+
+
+                <p>알리바바 클라우드는 전 세계 200여 개 국가에서 서비스를 제공하는 아시아 최대의 클라우드 서비스 제공업체입니다.</p>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div id="member3" class="member-box">
+
+
+
+            <div class="card-header">박세훈: GCP</div>
+
+
+
+            <div class="content">
+
+
+
+               <ul>
+
+
+
+    <li>BigQuery를 활용한 데이터 분석</li>
+
+
+
+    <li>GKE 기반의 쿠버네티스 운영</li>
+
+
+
+    <li>구글의 강력한 AI 인프라 활용</li>
+
+
+
+</ul>
+
+
+
+<button onclick="showGcpAlert()">GCP 핵심 보기</button>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div id="member4" class="member-box">
+
+
+
+            <div class="card-header">Member 4: Summary</div>
+
+
+
+            <div class="content">
+
+
+
+                <p>AWS는 시장 점유율 1위, Azure는 MS 에코시스템과의 연동, GCP는 빅데이터와 AI 분야에서 각각 강력한 강점을 가지고 있습니다. MSP 전문가로서 고객의 비즈니스 목적에 맞는 최적의 멀티 클라우드 전략을 제안합니다.</p>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <footer>
+
+
+
+        <p>© 2026 Linux VM 협업 프로젝트 | HTML & CSS Separation</p>
+
+
+
+    </footer>
+
+
+
+</body>
+
+
+
+</html>
