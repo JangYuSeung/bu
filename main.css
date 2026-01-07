@@ -1,0 +1,111 @@
+body {
+
+    font-family: 'Segoe UI', sans-serif;
+
+    line-height: 1.6;
+
+    margin: 0;
+
+    padding: 20px;
+
+    background-color: #f8f9fa;
+
+}
+
+
+
+header {
+
+    background: linear-gradient(135deg, #2c3e50 0%, #000000 100%);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 2rem;
+
+    border-radius: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.grid-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 20px;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+
+
+.member-box {
+
+    background: white;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+    border: 1px solid #ddd;
+
+}
+
+
+
+.card-header {
+
+    padding: 15px;
+
+    color: white;
+
+    font-weight: bold;
+
+    text-align: center;
+
+}
+
+
+
+/* 멤버별 포인트 색상 */
+
+#member1 .card-header { background-color: #FF9900; }
+
+#member2 .card-header { background-color: #0089D6; }
+
+#member3 .card-header { background-color: #EA4335; }
+
+#member4 .card-header { background-color: #34A853; }
+
+
+
+.content {
+
+    padding: 20px;
+
+    min-height: 100px;
+
+}
+
+
+
+footer {
+
+    text-align: center;
+
+    margin-top: 50px;
+
+    color: #6c757d;
+
+}
