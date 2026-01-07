@@ -1,3 +1,2 @@
-hello
-It's branch test file!
-
+content1
+content2
