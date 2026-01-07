@@ -1,8 +1,8 @@
-/* AWS 서비스 소개 전용 네임스페이스 스타일 */
+/* AWS 서비스 소개 전용 네임스페이스 스타일 test*/
 
 :root {
 
-    --aws-main-orange: #FF9900;
+    --aws-main-orange: #333333;
 
     --aws-dark-blue: #232F3E;
 
